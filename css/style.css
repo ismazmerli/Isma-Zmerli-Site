@@ -995,6 +995,9 @@ body {
   #fh5co-clients .fh5co-lead {
     font-size: 35px;
   }
+
+
+  
 }
 #fh5co-clients .flexslider2 {
 
@@ -1059,6 +1062,23 @@ body {
   opacity: 1;
 }
 
+#fh5co-clients .col-md-offset-0{
+  padding-top: 60px; 
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-clients .col-md-offset-0{
+    padding-top: 120px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #fh5co-clients .col-md-offset-0{
+    padding-top: 150px; 
+  }
+}
+
+/*  About */
 #fh5co-about .fh5co-social a {
   font-size: 35px !important;
   color: #b3b3b3 !important;
