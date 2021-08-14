@@ -506,6 +506,19 @@ body {
   vertical-align: middle;
 }
 
+@media screen and (max-width: 768px) {
+  #fh5co-hero .fh5co-lead p {
+    font-size: 19px;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-projects .fh5co-lead i {
+    font-size: 22px;
+  } 
+}
+
+
 .no-js-fullheight {
   height: 620px;
 }
@@ -1045,7 +1058,7 @@ body {
 }
 #fh5co-clients .flexslider2-controls .flex2-control-nav li img {
   cursor: pointer;
-  width: 150px;
+  width: 130px;
   opacity: .6;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -1063,18 +1076,18 @@ body {
 }
 
 #fh5co-clients .col-md-offset-0{
-  padding-top: 60px; 
+  padding-top: 35px; 
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-clients .col-md-offset-0{
-    padding-top: 120px; 
+    padding-top: 100px; 
   }
 }
 
 @media screen and (max-width: 480px) {
   #fh5co-clients .col-md-offset-0{
-    padding-top: 150px; 
+    padding-top: 130px; 
   }
 }
 
